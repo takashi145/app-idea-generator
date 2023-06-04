@@ -57,7 +57,7 @@ const generateMessage = (keywords: string[]): string => {
     * Do not include app ideas that do not exist.Do not include an existing app name.
     * Please do not include anything other than JSON in your answer.
     
-    次のキーワードからアプリのアイディアを5つ考えてください。${keywords.join(', ')}
+    次のキーワードをいくつか組み合わせたアプリのアイディアを5つ考えてください。${keywords.join(', ')}
   `
 }
 

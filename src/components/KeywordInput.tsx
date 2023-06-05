@@ -65,7 +65,7 @@ const KeywordInput: React.FC<Props> = ({ keywords, setKeywords }) => {
           className="outline-none w-full"
         />
       </div>
-      <p className='text-sm text-gray-600'>キーワード入力後は半角スペースまたはカンマを入力してください。</p>
+      <p className='text-sm text-gray-600'>キーワード入力後はEnterキーを押すか、半角スペースまたはカンマを入力してください。</p>
     </div>
   );
 };
